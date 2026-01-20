@@ -28,13 +28,21 @@ O **Bullet** é um sistema avançado de eventos PvP automáticos e agendados, in
 
 ---
 
-## 🛠️ Comandos e Permissões
+## 🛠️ Comandos, Permissões e Placeholders
 
 | Comando | Descrição | Permissão |
 | :--- | :--- | :--- |
 | `/bullet adminstart` | Abre o menu de agendamento sem custo. | `bullet.admin` |
 | `/bullet playerstart` | Inicia o evento consumindo 1 sessão. | `bullet.player` |
 | `/bullet darsessao {player} {qtd}` | Adiciona sessões a um jogador. | `bullet.admin` |
+
+| Placeholder | Descrição |
+| :--- | :--- |
+| `%bullet_wins%` | Exibe o total de vitórias globais do jogador (armazenado no banco de dados). |
+| `%bullet_total_kills%` | Exibe o total de abates (kills) acumulados pelo jogador em todas as partidas. |
+| `%bullet_sessions%` | Exibe a quantidade de sessões (créditos) que o jogador possui para agendar eventos. |
+| `%bullet_kills_bullet%` | Exibe a quantidade de abates que o jogador fez **apenas no Bullet atual**. |
+| `%bullet_border_status%` | Exibe o status da borda em tempo real: tempo para encolher ou tamanho atual. |
 
 ---
 
