@@ -50,6 +50,6 @@ O **Bullet** é um sistema avançado de eventos PvP automáticos e agendados, in
 ## 📊 Requisitos
 * **Versão do Minecraft:** [Disponivel apenas para versões PURPUR LEAF E PAPER 1.21.8]
 * **Dependências:** PlaceholderAPI (Opcional, mas recomendado).
-* **Java:** [Insira a versão do Java, ex: Java 17].
+* **Java:** [Java 21].
 
 ---
