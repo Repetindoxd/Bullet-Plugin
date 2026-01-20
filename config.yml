@@ -1,0 +1,40 @@
+prefix: "&c[&4&lBULLET&c] &f"
+
+# WorldBorder Settings
+border:
+  initial_size: 300.0 # Initial size
+  distance: 50.0  # Final size
+  time: 120       # Seconds to shrink
+  delay: 60       # Seconds before shrinking starts
+
+# Database Settings 
+database:
+  type: H2 # H2 or MYSQL
+  host: localhost
+  port: 3306
+  database: bullet
+  username: root
+  password: ""
+
+# Locations settings
+lobby_world: "world" # World to teleport winners/losers to at the end
+
+# Webhook Settings
+webhook:
+  enabled: false
+  url: "YOUR_DISCORD_WEBHOOK_URL"
+  username: "Bullet"
+  message: "@everyone O evento Bullet com o kit **%kit%** acabou de iniciar! Digite /bullet join para participar."
+  scheduled_message: ":calendar_spiral: Um novo Bullet com o kit **%kit%** foi agendado para o dia **%date%** !"
+
+messages:
+  no_permission: "&cYou don't have permission."
+  game_not_active: "&cThere is no active Bullet info."
+  already_started: "&cBullet has already started!"
+  joined: "&aYou joined the Bullet event!"
+  eliminated: "&cYou have been eliminated!"
+  win_announcement: "&6&lWINNER! &e%player% &fhas won the Bullet!"
+  border_shrinking: "&cThe border is shrinking!"
+
+kits:
+  # Stored in DB, but we keep this section for potential config-based fallbacks
