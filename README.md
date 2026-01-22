@@ -49,6 +49,35 @@ Sistema flexível para facilitar a troca de modalidades (Ex: Kit PvP, Full Iron,
 | `/bullet leave` | Sai do evento antes do início ou durante a morte. |
 | `/bullet playerstart` | Inicia/Agenda um evento (consome 1 sessão). |
 
+## 🧩 Integração com PlaceholderAPI
+
+O **Bullet** oferece suporte total ao PlaceholderAPI, permitindo que você exiba estatísticas e informações do evento em qualquer lugar do seu servidor.
+
+### 🏆 Estatísticas Globais
+*Dados persistentes armazenados no banco de dados (H2/MySQL).*
+
+| Placeholder | Descrição |
+| :--- | :--- |
+| `%bullet_wins%` | Retorna a quantidade total de **vitórias** do jogador. |
+| `%bullet_total_kills%` | Retorna a quantidade total de **abates** acumulados. |
+| `%bullet_sessions%` | Retorna o saldo de **sessões (créditos)** do jogador. |
+
+### ⚔️ Partida em Andamento
+*Informações dinâmicas sobre o evento atual.*
+
+| Placeholder | Descrição |
+| :--- | :--- |
+| `%bullet_kills_bullet%` | Quantidade de abates do jogador na **partida atual**. |
+| `%bullet_border_status%` | Exibe o status dinâmico da borda (veja os estados abaixo). |
+
+#### 📡 Estados do `%bullet_border_status%`
+Este placeholder adapta a mensagem automaticamente de acordo com a fase do jogo:
+* **Sem evento:** Exibe uma mensagem de "Sem jogo".
+* **Aguardando:** `"A Borda irá diminuir em Xm Xs"`
+* **Em movimento:** `"Diminuindo..."`
+* **Finalizado:** `"A Borda está em X blocos."`
+
+---
 ---
 
 ## ⚙️ Detalhes Técnicos e Performance
