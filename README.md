@@ -49,6 +49,8 @@ Sistema flexível para facilitar a troca de modalidades (Ex: Kit PvP, Full Iron,
 | `/bullet leave` | Sai do evento antes do início ou durante a morte. |
 | `/bullet playerstart` | Inicia/Agenda um evento (consome 1 sessão). |
 
+---
+
 ## 🧩 Integração com PlaceholderAPI
 
 O **Bullet** oferece suporte total ao PlaceholderAPI, permitindo que você exiba estatísticas e informações do evento em qualquer lugar do seu servidor.
@@ -77,7 +79,6 @@ Este placeholder adapta a mensagem automaticamente de acordo com a fase do jogo:
 * **Em movimento:** `"Diminuindo..."`
 * **Finalizado:** `"A Borda está em X blocos."`
 
----
 ---
 
 ## ⚙️ Detalhes Técnicos e Performance
