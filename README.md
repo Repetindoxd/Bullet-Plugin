@@ -30,7 +30,9 @@ O plugin possui um sistema de restauração automática para que as construçõe
 
 > [!TIP]
 > Esta função de reiniciar arena laga MUITO seu servidor, recomendo que use rollbackcore e coloque o comando de resetar area na config.yml do servidor !
+
 ---
+
 ## 🎮 4. Iniciando e Participando
 Existem duas formas de iniciar um evento:
 ### Como Admin (Início Imediato)
@@ -61,7 +63,7 @@ Se você tiver o plugin **DecentHolograms** instalado, pode exibir as próximas 
 *   **`/bullet reload`:** Recarrega as configurações e traduções.
 ---
 ## ⚙️ Destaques da Configuração (`config.yml`)
-*   **`reset_arena_command`:** Comando executado no console quando o jogo acaba (ex: limpar lag).
+*   **`reset_arena_command`:** Comando executado no console quando o jogo acaba (ex: resetar arena).
 *   **`border`:** Configure o tamanho inicial, final, tempo de fechamento e atraso.
 *   **`spectator.block_teleport`:** Impede que espectadores se teleportem e atrapalhem o jogo.
 *   **`webhook`:** Envie anúncios automáticos para o seu Discord quando um jogo começar ou for agendado.
