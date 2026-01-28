@@ -29,7 +29,7 @@ O plugin possui um sistema de restauração automática para que as construçõe
 
 
 > [!TIP]
-> O plugin restaurará automaticamente todos os blocos dentro desse cubo quando o jogo terminar!
+> Esta função de reiniciar arena laga MUITO seu servidor, recomendo que use rollbackcore e coloque o comando de resetar area na config.yml do servidor !
 ---
 ## 🎮 4. Iniciando e Participando
 Existem duas formas de iniciar um evento:
