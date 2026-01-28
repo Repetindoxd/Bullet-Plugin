@@ -25,6 +25,9 @@ O plugin possui um sistema de restauração automática para que as construçõe
     *   Use: `/bullet setararena <nome>`
 3.  **Deletar uma Arena:**
     *   Use: `/bullet deletearena <nome>`
+[Nota] esta função laga MUITO seu servidor, recomendo que use rollbackcore, crie a arena e edite o reset arena command em config.yml
+
+
 > [!TIP]
 > O plugin restaurará automaticamente todos os blocos dentro desse cubo quando o jogo terminar!
 ---
